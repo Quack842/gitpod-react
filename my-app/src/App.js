@@ -7,12 +7,13 @@ import EventsFunctional from './components/EventsFunctional';
 import EventBinding from './components/EventBinding';
 import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 import ConditionalRenderingFunction from './components/ConditionalRenderingFunction';
+import NestingComponents from './components/NestingComponents';
+import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 
 function App() {
   return (
     <div className="App">
-      <ConditionalRenderingClass />
-      <ConditionalRenderingFunction connected={true} />
+      <MethodsAsPropsParent />
     </div>
   );
 }
