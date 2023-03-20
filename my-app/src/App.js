@@ -14,12 +14,16 @@ import './App.css';
 // import LifeCyclesCWU from './components/LifeCyclesCWU';
 // import ControlledForm from './components/ControlledForm';
 // import UncontrolledForm from './components/UncontrolledForm';
-import SearchBar from './components/SearchBar';
+// import SearchBar from './components/SearchBar';
+// import ControlledFromHooks from './components/ControlledFromHooks';
+// import UseStateWithArrays from './components/UseStateWithArrays';
+// import UseStateWithObjects from './components/UseStateWithObjects';
+import UseEffectCounter from './components/UseEffectCounter';
 
 function App() {
   return (
     <div className="App">
-      <SearchBar />
+      <UseEffectCounter />
     </div>
   );
 }
