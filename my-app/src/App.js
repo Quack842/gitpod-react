@@ -18,12 +18,15 @@ import './App.css';
 // import ControlledFromHooks from './components/ControlledFromHooks';
 // import UseStateWithArrays from './components/UseStateWithArrays';
 // import UseStateWithObjects from './components/UseStateWithObjects';
-import UseEffectCounter from './components/UseEffectCounter';
+// import UseEffectCounter from './components/UseEffectCounter';
+// import HTTPRequest from './components/HTTPRequest';
+// import HTTPPost from './components/HTTPPost';
+import HTTPHooks from './components/HTTPHooks';
 
 function App() {
   return (
     <div className="App">
-      <UseEffectCounter />
+      <HTTPHooks />
     </div>
   );
 }
